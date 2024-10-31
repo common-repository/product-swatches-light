@@ -1,0 +1,31 @@
+.lw_product_swatches {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body.theme-twentytwentyttwo .lw_product_swatches { margin: 0 auto; }
+
+body.theme-twentytwentythree .lw_product_swatches { margin: 0 auto; }
+
+.lw_product_swatches li:first-child { margin-left: 0 }
+
+table.variations .lw_product_swatches, .woocommerce-cart-form .lw_product_swatches, .shop_table .lw_product_swatches { text-align: left; }
+
+.lw_product_swatches li {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0 4px;
+    overflow: hidden;
+}
+
+.lw_product_swatches li a, .lw_product_swatches li span {
+    background-color: #fff;
+    border: 2px solid #f2f2f2;
+    border-radius: 100%;
+    cursor: pointer;
+    display: block;
+    padding: 14px;
+}
